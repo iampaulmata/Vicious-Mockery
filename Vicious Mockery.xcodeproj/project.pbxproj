@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEA92102202AAA5D00DD41CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA92101202AAA5D00DD41CC /* AppDelegate.swift */; };
+		DEA92104202AAA5D00DD41CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA92103202AAA5D00DD41CC /* ViewController.swift */; };
+		DEA92107202AAA5D00DD41CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA92105202AAA5D00DD41CC /* Main.storyboard */; };
+		DEA92109202AAA5D00DD41CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA92108202AAA5D00DD41CC /* Assets.xcassets */; };
+		DEA9210C202AAA5D00DD41CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA9210A202AAA5D00DD41CC /* LaunchScreen.storyboard */; };
+		DEA92117202AAA5D00DD41CC /* Vicious_MockeryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA92116202AAA5D00DD41CC /* Vicious_MockeryTests.swift */; };
+		DEA92122202AAA5D00DD41CC /* Vicious_MockeryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA92121202AAA5D00DD41CC /* Vicious_MockeryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEA92113202AAA5D00DD41CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEA920F6202AAA5D00DD41CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEA920FD202AAA5D00DD41CC;
+			remoteInfo = "Vicious Mockery";
+		};
+		DEA9211E202AAA5D00DD41CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEA920F6202AAA5D00DD41CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEA920FD202AAA5D00DD41CC;
+			remoteInfo = "Vicious Mockery";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEA920FE202AAA5D00DD41CC /* Vicious Mockery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vicious Mockery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA92101202AAA5D00DD41CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEA92103202AAA5D00DD41CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEA92106202AAA5D00DD41CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEA92108202AAA5D00DD41CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEA9210B202AAA5D00DD41CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEA9210D202AAA5D00DD41CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA92112202AAA5D00DD41CC /* Vicious MockeryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vicious MockeryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA92116202AAA5D00DD41CC /* Vicious_MockeryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vicious_MockeryTests.swift; sourceTree = "<group>"; };
+		DEA92118202AAA5D00DD41CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA9211D202AAA5D00DD41CC /* Vicious MockeryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vicious MockeryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA92121202AAA5D00DD41CC /* Vicious_MockeryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vicious_MockeryUITests.swift; sourceTree = "<group>"; };
+		DEA92123202AAA5D00DD41CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEA920FB202AAA5D00DD41CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA9210F202AAA5D00DD41CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA9211A202AAA5D00DD41CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEA920F5202AAA5D00DD41CC = {
+			isa = PBXGroup;
+			children = (
+				DEA92100202AAA5D00DD41CC /* Vicious Mockery */,
+				DEA92115202AAA5D00DD41CC /* Vicious MockeryTests */,
+				DEA92120202AAA5D00DD41CC /* Vicious MockeryUITests */,
+				DEA920FF202AAA5D00DD41CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEA920FF202AAA5D00DD41CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEA920FE202AAA5D00DD41CC /* Vicious Mockery.app */,
+				DEA92112202AAA5D00DD41CC /* Vicious MockeryTests.xctest */,
+				DEA9211D202AAA5D00DD41CC /* Vicious MockeryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEA92100202AAA5D00DD41CC /* Vicious Mockery */ = {
+			isa = PBXGroup;
+			children = (
+				DEA92101202AAA5D00DD41CC /* AppDelegate.swift */,
+				DEA92103202AAA5D00DD41CC /* ViewController.swift */,
+				DEA92105202AAA5D00DD41CC /* Main.storyboard */,
+				DEA92108202AAA5D00DD41CC /* Assets.xcassets */,
+				DEA9210A202AAA5D00DD41CC /* LaunchScreen.storyboard */,
+				DEA9210D202AAA5D00DD41CC /* Info.plist */,
+			);
+			path = "Vicious Mockery";
+			sourceTree = "<group>";
+		};
+		DEA92115202AAA5D00DD41CC /* Vicious MockeryTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEA92116202AAA5D00DD41CC /* Vicious_MockeryTests.swift */,
+				DEA92118202AAA5D00DD41CC /* Info.plist */,
+			);
+			path = "Vicious MockeryTests";
+			sourceTree = "<group>";
+		};
+		DEA92120202AAA5D00DD41CC /* Vicious MockeryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEA92121202AAA5D00DD41CC /* Vicious_MockeryUITests.swift */,
+				DEA92123202AAA5D00DD41CC /* Info.plist */,
+			);
+			path = "Vicious MockeryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEA920FD202AAA5D00DD41CC /* Vicious Mockery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA92126202AAA5D00DD41CC /* Build configuration list for PBXNativeTarget "Vicious Mockery" */;
+			buildPhases = (
+				DEA920FA202AAA5D00DD41CC /* Sources */,
+				DEA920FB202AAA5D00DD41CC /* Frameworks */,
+				DEA920FC202AAA5D00DD41CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vicious Mockery";
+			productName = "Vicious Mockery";
+			productReference = DEA920FE202AAA5D00DD41CC /* Vicious Mockery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEA92111202AAA5D00DD41CC /* Vicious MockeryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA92129202AAA5D00DD41CC /* Build configuration list for PBXNativeTarget "Vicious MockeryTests" */;
+			buildPhases = (
+				DEA9210E202AAA5D00DD41CC /* Sources */,
+				DEA9210F202AAA5D00DD41CC /* Frameworks */,
+				DEA92110202AAA5D00DD41CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEA92114202AAA5D00DD41CC /* PBXTargetDependency */,
+			);
+			name = "Vicious MockeryTests";
+			productName = "Vicious MockeryTests";
+			productReference = DEA92112202AAA5D00DD41CC /* Vicious MockeryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEA9211C202AAA5D00DD41CC /* Vicious MockeryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA9212C202AAA5D00DD41CC /* Build configuration list for PBXNativeTarget "Vicious MockeryUITests" */;
+			buildPhases = (
+				DEA92119202AAA5D00DD41CC /* Sources */,
+				DEA9211A202AAA5D00DD41CC /* Frameworks */,
+				DEA9211B202AAA5D00DD41CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEA9211F202AAA5D00DD41CC /* PBXTargetDependency */,
+			);
+			name = "Vicious MockeryUITests";
+			productName = "Vicious MockeryUITests";
+			productReference = DEA9211D202AAA5D00DD41CC /* Vicious MockeryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEA920F6202AAA5D00DD41CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Retro Rocket Software";
+				TargetAttributes = {
+					DEA920FD202AAA5D00DD41CC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DEA92111202AAA5D00DD41CC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DEA920FD202AAA5D00DD41CC;
+					};
+					DEA9211C202AAA5D00DD41CC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DEA920FD202AAA5D00DD41CC;
+					};
+				};
+			};
+			buildConfigurationList = DEA920F9202AAA5D00DD41CC /* Build configuration list for PBXProject "Vicious Mockery" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEA920F5202AAA5D00DD41CC;
+			productRefGroup = DEA920FF202AAA5D00DD41CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEA920FD202AAA5D00DD41CC /* Vicious Mockery */,
+				DEA92111202AAA5D00DD41CC /* Vicious MockeryTests */,
+				DEA9211C202AAA5D00DD41CC /* Vicious MockeryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEA920FC202AAA5D00DD41CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA9210C202AAA5D00DD41CC /* LaunchScreen.storyboard in Resources */,
+				DEA92109202AAA5D00DD41CC /* Assets.xcassets in Resources */,
+				DEA92107202AAA5D00DD41CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA92110202AAA5D00DD41CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA9211B202AAA5D00DD41CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEA920FA202AAA5D00DD41CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA92104202AAA5D00DD41CC /* ViewController.swift in Sources */,
+				DEA92102202AAA5D00DD41CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA9210E202AAA5D00DD41CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA92117202AAA5D00DD41CC /* Vicious_MockeryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA92119202AAA5D00DD41CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA92122202AAA5D00DD41CC /* Vicious_MockeryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEA92114202AAA5D00DD41CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEA920FD202AAA5D00DD41CC /* Vicious Mockery */;
+			targetProxy = DEA92113202AAA5D00DD41CC /* PBXContainerItemProxy */;
+		};
+		DEA9211F202AAA5D00DD41CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEA920FD202AAA5D00DD41CC /* Vicious Mockery */;
+			targetProxy = DEA9211E202AAA5D00DD41CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEA92105202AAA5D00DD41CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEA92106202AAA5D00DD41CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEA9210A202AAA5D00DD41CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEA9210B202AAA5D00DD41CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEA92124202AAA5D00DD41CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEA92125202AAA5D00DD41CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEA92127202AAA5D00DD41CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JPB26X986;
+				INFOPLIST_FILE = "Vicious Mockery/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.retrorocketsoftware.Vicious-Mockery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEA92128202AAA5D00DD41CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JPB26X986;
+				INFOPLIST_FILE = "Vicious Mockery/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.retrorocketsoftware.Vicious-Mockery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DEA9212A202AAA5D00DD41CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JPB26X986;
+				INFOPLIST_FILE = "Vicious MockeryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.retrorocketsoftware.Vicious-MockeryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vicious Mockery.app/Vicious Mockery";
+			};
+			name = Debug;
+		};
+		DEA9212B202AAA5D00DD41CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JPB26X986;
+				INFOPLIST_FILE = "Vicious MockeryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.retrorocketsoftware.Vicious-MockeryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vicious Mockery.app/Vicious Mockery";
+			};
+			name = Release;
+		};
+		DEA9212D202AAA5D00DD41CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JPB26X986;
+				INFOPLIST_FILE = "Vicious MockeryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.retrorocketsoftware.Vicious-MockeryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vicious Mockery";
+			};
+			name = Debug;
+		};
+		DEA9212E202AAA5D00DD41CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JPB26X986;
+				INFOPLIST_FILE = "Vicious MockeryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.retrorocketsoftware.Vicious-MockeryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vicious Mockery";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEA920F9202AAA5D00DD41CC /* Build configuration list for PBXProject "Vicious Mockery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA92124202AAA5D00DD41CC /* Debug */,
+				DEA92125202AAA5D00DD41CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA92126202AAA5D00DD41CC /* Build configuration list for PBXNativeTarget "Vicious Mockery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA92127202AAA5D00DD41CC /* Debug */,
+				DEA92128202AAA5D00DD41CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA92129202AAA5D00DD41CC /* Build configuration list for PBXNativeTarget "Vicious MockeryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA9212A202AAA5D00DD41CC /* Debug */,
+				DEA9212B202AAA5D00DD41CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA9212C202AAA5D00DD41CC /* Build configuration list for PBXNativeTarget "Vicious MockeryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA9212D202AAA5D00DD41CC /* Debug */,
+				DEA9212E202AAA5D00DD41CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEA920F6202AAA5D00DD41CC /* Project object */;
+}
