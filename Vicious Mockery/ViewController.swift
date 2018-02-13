@@ -121,7 +121,7 @@ class ViewController: UIViewController {
             "By the gods your ugly, I bet your father regrets not pulling out when he had the chance!",
             "You do know the pointy end is suppose to go in the other guy, right!",
             "Do you know, that if you were at a party surrounded by female zombies, the only thing you'd pull is a hamstring!",
-            "I'd ask if you have a heir I should notify... if it wasn't so obvious you were a virgin.",
+            "I'd ask if you have an heir I should notify... if it wasn't so obvious you were a virgin.",
             "Have you ever considered the only reason your diety helps you is to keep your enemies from sending you to him?",
             "Is this really your best or are you hoping I'll start laughing at you and drop my guard?",
             "You owe that sword you are holding an apology.",

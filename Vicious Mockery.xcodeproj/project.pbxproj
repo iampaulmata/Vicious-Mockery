@@ -14,6 +14,7 @@
 		DEA9210C202AAA5D00DD41CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA9210A202AAA5D00DD41CC /* LaunchScreen.storyboard */; };
 		DEA92117202AAA5D00DD41CC /* Vicious_MockeryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA92116202AAA5D00DD41CC /* Vicious_MockeryTests.swift */; };
 		DEA92122202AAA5D00DD41CC /* Vicious_MockeryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA92121202AAA5D00DD41CC /* Vicious_MockeryUITests.swift */; };
+		DEF69A13202E7A72005DA264 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF69A12202E7A72005DA264 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DEA9211D202AAA5D00DD41CC /* Vicious MockeryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vicious MockeryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA92121202AAA5D00DD41CC /* Vicious_MockeryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vicious_MockeryUITests.swift; sourceTree = "<group>"; };
 		DEA92123202AAA5D00DD41CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEF69A12202E7A72005DA264 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEF69A13202E7A72005DA264 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				DEA92115202AAA5D00DD41CC /* Vicious MockeryTests */,
 				DEA92120202AAA5D00DD41CC /* Vicious MockeryUITests */,
 				DEA920FF202AAA5D00DD41CC /* Products */,
+				DEF69A11202E7A72005DA264 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				DEA92123202AAA5D00DD41CC /* Info.plist */,
 			);
 			path = "Vicious MockeryUITests";
+			sourceTree = "<group>";
+		};
+		DEF69A11202E7A72005DA264 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEF69A12202E7A72005DA264 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
